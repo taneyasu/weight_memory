@@ -1,4 +1,4 @@
-import sqlite3
+ import sqlite3
 
 dbname = 'data/weight.db'
 conn = sqlite3.connect(dbname)
