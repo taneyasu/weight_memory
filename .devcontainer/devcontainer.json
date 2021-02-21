@@ -1,0 +1,12 @@
+{
+    "name": "python_basic_prj",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "python",
+    "workspaceFolder": "/tmp/work",
+    "extensions": [
+     "ms-python.python"
+    ],
+    "settings": {
+     "editor.tabSize": 2,
+    }, 
+}
