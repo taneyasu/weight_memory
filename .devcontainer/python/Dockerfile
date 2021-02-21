@@ -1,5 +1,5 @@
 FROM python:3.8-slim
-WORKDIR /tmp/work
+WORKDIR /prj/work
 COPY requirements.txt ${PWD}
 RUN apt update -y
 RUN apt install git -y

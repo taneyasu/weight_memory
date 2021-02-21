@@ -6,6 +6,6 @@ services:
   container_name: 'weight_memory'
   stdin_open: true
   tty: true
-  working_dir: '/tmp/work'
+  working_dir: '/prj/work'
   volumes:
-  - ..:/tmp/work
+  - ..:/prj/work
